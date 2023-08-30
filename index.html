@@ -1,30 +1,32 @@
 <!--index.html-->
 
 <html>
-    <body>
-        <div id="app"></div>
-        <script type="text/javascript">
-            //https://nextjs.org/learn/foundations/from-javascript-to-react/updating-ui-with-javascript
-            // use getElementById() to select the <div> element by its id.
-            const app = document.getElementById('app');
 
-            // create a new H1 element
-            const header = document.createElement('h1');
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        //https://nextjs.org/learn/foundations/from-javascript-to-react/updating-ui-with-javascript
+        // use getElementById() to select the <div> element by its id.
+        const app = document.getElementById('app');
 
-            // create a new text node for the H1 element
-            const headerContent = document.createTextNode(
-                'Develop. Preview. Ship. 🚀',
-            );
+        // create a new H1 element
+        const header = document.createElement('h1');
 
-            //Append the text to the H1 element
-            header.appendChild(headerContent);
+        // create a new text node for the H1 element
+        const headerContent = document.createTextNode(
+            'Develop. Preview. Ship. 🚀',
+        );
 
-            //Place the H1 element inside the div
-            app.appendChild(header);
-        </script>
-        <div id="pizza"></div>
-        <script type="text/javascript">
-const pizza = dcoument.getElementById('pizza');
-        </script>
-    </body>
+        //Append the text to the H1 element
+        header.appendChild(headerContent);
+
+        //Place the H1 element inside the div
+        app.appendChild(header);
+    </script>
+    <div id="pizza"></div>
+    <script type="text/javascript">
+        const pizza = dcoument.getElementById('pizza');
+    </script>
+</body>
+
 </html>
